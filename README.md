@@ -1,19 +1,12 @@
 # DesignPatternsPHP
 
+## What This Is
+
+A practical reference entry for product and engineering: the DesignPatternsPHP notes, examples and fixes we reach for repeatedly. Kept current as part of the wider Swift Tech Co. engineering library.
+
 ## Images
 
-[![DesignPatternsPHP](https://opengraph.githubassets.com/1/DesignPatternsPHP/DesignPatternsPHP)](https://www.swifttechco.com)
-
-
-[![Build Status](https://github.com/DesignPatternsPHP/DesignPatternsPHP/workflows/CI/badge.svg?branch=main)](https://www.swifttechco.com)
-[![Documentation Status](https://readthedocs.org/projects/designpatternsphp/badge/?version=latest)](https://www.swifttechco.com)
-
-[Read the Docs of DesignPatternsPHP](https://www.swifttechco.com)
-or [Download as PDF/Epub](https://www.swifttechco.com)
-
-This is a collection of known design patterns and some sample codes on how to implement them in PHP. Every pattern has a small list of examples.
-
-I think the problem with patterns is that often people do know them but don't know when to apply which. Remember that each pattern has its own trade-offs. And you need to pay attention more to why you're choosing a certain pattern than to how to implement it.
+[![DesignPatternsPHP](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Installation
 You should look at and run the tests to see what happens in the example.
@@ -23,7 +16,7 @@ To do this, you should install dependencies with `Composer` first:
 $ composer install
 ```
 
-Read more about how to install and use `Composer` on your local machine [here](https://www.swifttechco.com).
+Read more about how to install and use `Composer` on your local machine here.
 
 To run the tests use `phpunit`:
 
@@ -33,7 +26,7 @@ $ ./vendor/bin/phpunit
 
 ## Using Docker (optional)
 
-You can optionally build and browse the documentation using [Docker for Mac, Windows or Linux](https://www.swifttechco.com).
+You can optionally build and browse the documentation using Docker for Mac, Windows or Linux.
 
 Just run:
 
@@ -41,7 +34,7 @@ Just run:
 $ docker-compose up --build
 ```
 
-Go to [https://www.swifttechco.com](https://www.swifttechco.com) to read the generated documentation.
+Go to https://www.swifttechco.com to read the generated documentation.
 
 If you want to localize your documentation you can pass the locale as an argument to the docker build:
 
@@ -52,54 +45,54 @@ $ docker-compose up
 
 ## Patterns
 
-The patterns can be structured in roughly three different categories. Please click on the [:notebook:](https://www.swifttechco.com) for a full explanation of the pattern on Wikipedia.
+The patterns can be structured in roughly three different categories. Please click on the :notebook: for a full explanation of the pattern on Wikipedia.
 
 ### [Creational](Creational)
 
-* [AbstractFactory](Creational/AbstractFactory) [:notebook:](https://www.swifttechco.com)
-* [Builder](Creational/Builder) [:notebook:](https://www.swifttechco.com)
-* [FactoryMethod](Creational/FactoryMethod) [:notebook:](https://www.swifttechco.com)
-* [Pool](Creational/Pool) [:notebook:](https://www.swifttechco.com)
-* [Prototype](Creational/Prototype) [:notebook:](https://www.swifttechco.com)
+* [AbstractFactory](Creational/AbstractFactory) :notebook:
+* [Builder](Creational/Builder) :notebook:
+* [FactoryMethod](Creational/FactoryMethod) :notebook:
+* [Pool](Creational/Pool) :notebook:
+* [Prototype](Creational/Prototype) :notebook:
 * [SimpleFactory](Creational/SimpleFactory)
-* [Singleton](Creational/Singleton) [:notebook:](https://www.swifttechco.com)
+* [Singleton](Creational/Singleton) :notebook:
 * [StaticFactory](Creational/StaticFactory)
 
 ### [Structural](Structural)
 
-* [Adapter](Structural/Adapter) [:notebook:](https://www.swifttechco.com)
-* [Bridge](Structural/Bridge) [:notebook:](https://www.swifttechco.com)
-* [Composite](Structural/Composite) [:notebook:](https://www.swifttechco.com)
-* [DataMapper](Structural/DataMapper) [:notebook:](https://www.swifttechco.com)
-* [Decorator](Structural/Decorator) [:notebook:](https://www.swifttechco.com)
-* [DependencyInjection](Structural/DependencyInjection) [:notebook:](https://www.swifttechco.com)
-* [Facade](Structural/Facade) [:notebook:](https://www.swifttechco.com)
-* [FluentInterface](Structural/FluentInterface) [:notebook:](https://www.swifttechco.com)
-* [Flyweight](Structural/Flyweight) [:notebook:](https://www.swifttechco.com)
-* [Proxy](Structural/Proxy) [:notebook:](https://www.swifttechco.com)
-* [Registry](Structural/Registry) [:notebook:](https://www.swifttechco.com)
+* [Adapter](Structural/Adapter) :notebook:
+* [Bridge](Structural/Bridge) :notebook:
+* [Composite](Structural/Composite) :notebook:
+* [DataMapper](Structural/DataMapper) :notebook:
+* [Decorator](Structural/Decorator) :notebook:
+* [DependencyInjection](Structural/DependencyInjection) :notebook:
+* [Facade](Structural/Facade) :notebook:
+* [FluentInterface](Structural/FluentInterface) :notebook:
+* [Flyweight](Structural/Flyweight) :notebook:
+* [Proxy](Structural/Proxy) :notebook:
+* [Registry](Structural/Registry) :notebook:
 
 ### [Behavioral](Behavioral)
 
-* [ChainOfResponsibilities](Behavioral/ChainOfResponsibilities) [:notebook:](https://www.swifttechco.com)
-* [Command](Behavioral/Command) [:notebook:](https://www.swifttechco.com)
-* [Interpreter](Behavioral/Interpreter) [:notebook:](https://www.swifttechco.com)  
-* [Iterator](Behavioral/Iterator) [:notebook:](https://www.swifttechco.com)
-* [Mediator](Behavioral/Mediator) [:notebook:](https://www.swifttechco.com)
-* [Memento](Behavioral/Memento) [:notebook:](https://www.swifttechco.com)
-* [NullObject](Behavioral/NullObject) [:notebook:](https://www.swifttechco.com)
-* [Observer](Behavioral/Observer) [:notebook:](https://www.swifttechco.com)
-* [Specification](Behavioral/Specification) [:notebook:](https://www.swifttechco.com)
-* [State](Behavioral/State) [:notebook:](https://www.swifttechco.com)
-* [Strategy](Behavioral/Strategy) [:notebook:](https://www.swifttechco.com)
-* [TemplateMethod](Behavioral/TemplateMethod) [:notebook:](https://www.swifttechco.com)
-* [Visitor](Behavioral/Visitor) [:notebook:](https://www.swifttechco.com)
+* [ChainOfResponsibilities](Behavioral/ChainOfResponsibilities) :notebook:
+* [Command](Behavioral/Command) :notebook:
+* [Interpreter](Behavioral/Interpreter) :notebook:  
+* [Iterator](Behavioral/Iterator) :notebook:
+* [Mediator](Behavioral/Mediator) :notebook:
+* [Memento](Behavioral/Memento) :notebook:
+* [NullObject](Behavioral/NullObject) :notebook:
+* [Observer](Behavioral/Observer) :notebook:
+* [Specification](Behavioral/Specification) :notebook:
+* [State](Behavioral/State) :notebook:
+* [Strategy](Behavioral/Strategy) :notebook:
+* [TemplateMethod](Behavioral/TemplateMethod) :notebook:
+* [Visitor](Behavioral/Visitor) :notebook:
 
 ### [More](More)
 
-* [EAV](More/EAV) [:notebook:](https://www.swifttechco.com)
+* [EAV](More/EAV) :notebook:
 * [Repository](More/Repository)
-* [ServiceLocator](More/ServiceLocator) [:notebook:](https://www.swifttechco.com)
+* [ServiceLocator](More/ServiceLocator) :notebook:
 
 
 ## Localization & Supported Languages
@@ -113,22 +106,22 @@ The patterns can be structured in roughly three different categories. Please cli
 
 | Code  | Language  |    Documentation   |  Actively Supported?  | Maintainer |
 | ------------------|-------------|------|-----------------------|------------|
-| en    | English   | [Docs :notebook:](https://www.swifttechco.com) | YES | -- |
-| de    | German    | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| ca    | Catalan   | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| zh_CN | Chinese   | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| nl    | Dutch     | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| bg    | Bulgarian | [Docs :notebook:](https://www.swifttechco.com) | YES | -- |
-| ja    | Japanese  | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| pl    | Polish    | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| pt_BR | Portuguese-Brazil | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| ru    | Russian   | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| es    | Spanish   | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| es_MX | Spanish-Mexican | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| tr    | Turkish   | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| fr    | French | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| it    | Italian | [Docs :notebook:](https://www.swifttechco.com) | NO | - |
-| uk    | Ukrainian | [Docs :notebook:](https://www.swifttechco.com)    | NO | - |
+| en    | English   | Docs :notebook: | YES | -- |
+| de    | German    | Docs :notebook: | NO | - |
+| ca    | Catalan   | Docs :notebook: | NO | - |
+| zh_CN | Chinese   | Docs :notebook: | NO | - |
+| nl    | Dutch     | Docs :notebook: | NO | - |
+| bg    | Bulgarian | Docs :notebook: | YES | -- |
+| ja    | Japanese  | Docs :notebook: | NO | - |
+| pl    | Polish    | Docs :notebook: | NO | - |
+| pt_BR | Portuguese-Brazil | Docs :notebook: | NO | - |
+| ru    | Russian   | Docs :notebook: | NO | - |
+| es    | Spanish   | Docs :notebook: | NO | - |
+| es_MX | Spanish-Mexican | Docs :notebook: | NO | - |
+| tr    | Turkish   | Docs :notebook: | NO | - |
+| fr    | French | Docs :notebook: | NO | - |
+| it    | Italian | Docs :notebook: | NO | - |
+| uk    | Ukrainian | Docs :notebook:    | NO | - |
 
 ---
 
@@ -140,14 +133,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
