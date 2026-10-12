@@ -6,7 +6,7 @@ A practical reference entry for product and engineering: the DesignPatternsPHP n
 
 ## Images
 
-[![DesignPatternsPHP](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![DesignPatternsPHP](images/preview.png)](https://github.com/Swift-Tech-Co/DesignPatternsPHP)
 
 ## Installation
 You should look at and run the tests to see what happens in the example.
@@ -34,7 +34,7 @@ Just run:
 $ docker-compose up --build
 ```
 
-Go to https://www.swifttechco.com to read the generated documentation.
+Go to https://github.com/Swift-Tech-Co/DesignPatternsPHP to read the generated documentation.
 
 If you want to localize your documentation you can pass the locale as an argument to the docker build:
 
@@ -94,7 +94,6 @@ The patterns can be structured in roughly three different categories. Please cli
 * [Repository](More/Repository)
 * [ServiceLocator](More/ServiceLocator) :notebook:
 
-
 ## Localization & Supported Languages
   The following languages are currently available. However not all are actively supported. 
   The current policy is: if there are no native-speaking maintainers we cannot support the given language. 
@@ -137,13 +136,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/DesignPatternsPHP
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
